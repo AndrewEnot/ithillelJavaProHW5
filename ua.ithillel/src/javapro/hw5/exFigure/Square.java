@@ -1,4 +1,4 @@
-package javapro.hw5.ex0;
+package javapro.hw5.exFigure;
 
 public class Square extends Figure {
 

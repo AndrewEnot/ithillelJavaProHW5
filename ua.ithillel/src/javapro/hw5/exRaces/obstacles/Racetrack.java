@@ -1,4 +1,4 @@
-package javapro.hw5.ex1.obstacles;
+package javapro.hw5.exRaces.obstacles;
 
 public class Racetrack extends Obstacle {
 
@@ -7,7 +7,6 @@ public class Racetrack extends Obstacle {
     public Racetrack(int length) {
         this.length = length;
     }
-
     public int getLength() {
         return length;
     }

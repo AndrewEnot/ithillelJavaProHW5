@@ -1,4 +1,4 @@
-package javapro.hw5.ex1.members;
+package javapro.hw5.exRaces.members;
 
 public class Robot extends Member {
 

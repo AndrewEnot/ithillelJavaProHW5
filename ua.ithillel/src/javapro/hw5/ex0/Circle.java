@@ -8,7 +8,7 @@ public class Circle extends Figure {
         this.radius = radius;
     }
     @Override
-    public double sqCalc(Object obj) {
+    public double sqCalc() {
         return this.radius * this.radius * Math.PI;
     }
 }

@@ -7,7 +7,7 @@ public class Square extends Figure {
         this.side = side;
     }
     @Override
-    public double calc(Object obj) {
+    public double sqCalc(Object obj) {
         return this.side * this.side;
     }
 }

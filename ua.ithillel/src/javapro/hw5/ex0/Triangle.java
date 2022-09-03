@@ -10,7 +10,7 @@ public class Triangle extends Figure {
         this.height = height;
     }
     @Override
-    public double calc(Object obj) {
+    public double sqCalc(Object obj) {
         return (this.side / 2) * this.height;
     }
 }

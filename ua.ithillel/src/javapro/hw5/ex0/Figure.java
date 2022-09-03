@@ -1,9 +1,8 @@
 package javapro.hw5.ex0;
 
-public abstract class Figure implements SqCalculator {
+public abstract class Figure {
 
-    @Override
-    public double calc(Object obj) {
+    public double sqCalc(Object obj) {
         return 0;
     }
 }

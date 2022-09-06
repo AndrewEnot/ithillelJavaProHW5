@@ -1,6 +1,6 @@
-package javapro.hw5.exFigure;
+package javapro.hw5.figure.model;
 
-public class Triangle extends Figure {
+public class Triangle implements Figure {
 
     double side;
     double height;
@@ -10,7 +10,7 @@ public class Triangle extends Figure {
         this.height = height;
     }
     @Override
-    public double sqCalc() {
+    public double areaCalculator() {
         return (this.side / 2) * this.height;
     }
 }

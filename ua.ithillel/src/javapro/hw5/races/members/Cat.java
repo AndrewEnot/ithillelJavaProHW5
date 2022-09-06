@@ -1,4 +1,5 @@
-package javapro.hw5.exRaces.members;
+package javapro.hw5.races.members;
+
 
 public class Cat extends Member {
 

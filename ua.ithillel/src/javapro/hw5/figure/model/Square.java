@@ -1,13 +1,13 @@
-package javapro.hw5.exFigure;
+package javapro.hw5.figure.model;
 
-public class Square extends Figure {
+public class Square implements Figure {
 
     double side;
     public Square(int side) {
         this.side = side;
     }
     @Override
-    public double sqCalc() {
+    public double areaCalculator() {
         return this.side * this.side;
     }
 }

@@ -1,4 +1,9 @@
-package javapro.hw5.exFigure;
+package javapro.hw5.figure;
+
+import javapro.hw5.figure.model.Circle;
+import javapro.hw5.figure.model.Figure;
+import javapro.hw5.figure.model.Square;
+import javapro.hw5.figure.model.Triangle;
 
 public class Main {
 
@@ -10,7 +15,7 @@ public class Main {
     public static void squares(Figure[] figures) {
         double sum = 0;
         for (Figure figure : figures) {
-            sum += figure.sqCalc();
+            sum += figure.areaCalculator();
         }
         System.out.println("The total area of the figures: " + sum);
     }

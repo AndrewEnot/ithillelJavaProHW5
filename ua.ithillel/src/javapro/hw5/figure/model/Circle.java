@@ -1,6 +1,6 @@
-package javapro.hw5.exFigure;
+package javapro.hw5.figure.model;
 
-public class Circle extends Figure {
+public class Circle implements Figure {
 
     double radius;
 
@@ -8,7 +8,7 @@ public class Circle extends Figure {
         this.radius = radius;
     }
     @Override
-    public double sqCalc() {
+    public double areaCalculator() {
         return this.radius * this.radius * Math.PI;
     }
 }

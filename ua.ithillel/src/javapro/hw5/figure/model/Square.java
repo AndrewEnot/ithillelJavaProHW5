@@ -7,7 +7,7 @@ public class Square implements Figure {
         this.side = side;
     }
     @Override
-    public double areaCalculator() {
+    public double calculateArea() {
         return this.side * this.side;
     }
 }

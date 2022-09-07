@@ -10,7 +10,7 @@ public class Triangle implements Figure {
         this.height = height;
     }
     @Override
-    public double areaCalculator() {
+    public double calculateArea() {
         return (this.side / 2) * this.height;
     }
 }

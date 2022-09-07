@@ -15,7 +15,7 @@ public class Main {
     public static void squares(Figure[] figures) {
         double sum = 0;
         for (Figure figure : figures) {
-            sum += figure.areaCalculator();
+            sum += figure.calculateArea();
         }
         System.out.println("The total area of the figures: " + sum);
     }

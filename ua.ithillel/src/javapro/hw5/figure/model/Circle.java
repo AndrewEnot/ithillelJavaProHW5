@@ -8,7 +8,7 @@ public class Circle implements Figure {
         this.radius = radius;
     }
     @Override
-    public double areaCalculator() {
-        return this.radius * this.radius * Math.PI;
+    public double calculateArea() {
+        return Math.pow(this.radius,2) * Math.PI;
     }
 }

@@ -10,6 +10,6 @@ public class Square implements Figure {
 
     @Override
     public double calculateArea() {
-        return this.side * this.side;
+        return Math.pow(this.side,2);
     }
 }

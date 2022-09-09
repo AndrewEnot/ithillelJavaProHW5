@@ -12,6 +12,7 @@ public class Main {
         Figure[] figures = {new Circle(18), new Triangle(24, 18), new Square(10)};
         squares(figures);
     }
+
     public static void squares(Figure[] figures) {
         double sum = 0;
         for (Figure figure : figures) {

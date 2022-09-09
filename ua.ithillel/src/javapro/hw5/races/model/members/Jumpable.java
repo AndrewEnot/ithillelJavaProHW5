@@ -1,4 +1,4 @@
-package javapro.hw5.races.members;
+package javapro.hw5.races.model.members;
 
 public interface Jumpable {
 

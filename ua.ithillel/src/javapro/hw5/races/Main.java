@@ -1,13 +1,13 @@
 package javapro.hw5.races;
 
 import javapro.hw5.races.controller.RaceController;
-import javapro.hw5.races.members.Cat;
-import javapro.hw5.races.members.Human;
-import javapro.hw5.races.members.Member;
-import javapro.hw5.races.members.Robot;
-import javapro.hw5.races.obstacles.Obstacle;
-import javapro.hw5.races.obstacles.Racetrack;
-import javapro.hw5.races.obstacles.Wall;
+import javapro.hw5.races.model.members.Cat;
+import javapro.hw5.races.model.members.Human;
+import javapro.hw5.races.model.members.Member;
+import javapro.hw5.races.model.members.Robot;
+import javapro.hw5.races.model.obstacles.Obstacle;
+import javapro.hw5.races.model.obstacles.Racetrack;
+import javapro.hw5.races.model.obstacles.Wall;
 
 public class Main {
     public static void main(String[] args) {
